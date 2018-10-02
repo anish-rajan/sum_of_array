@@ -1,8 +1,8 @@
-def gcd(x,y):
-    if(y!=0):
-        return gcd(y,x%y)
+def gcd(x,z):
+    if(z!=0):
+        return gcd(z,x%z)
     else:
         return x
 x=input()
 y=input()
-print gcd(x,y)
+print gcd(x,z)
