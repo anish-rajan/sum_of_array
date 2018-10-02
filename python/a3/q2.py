@@ -1,16 +1,16 @@
 l1=[1,2,3,4,5]
 #using for loop
 sum=0
-for i in l1:
-    sum=sum+i
+for j in l1:
+    sum=sum+j
 
 
 #using while loop
-i=0
+j=0
 sum1=0
-while(i<len(l1)):
-    sum1+=l1[i]
-    i+=1
+while(j<len(l1)):
+    sum1+=l1[j]
+    j+=1
 
 #using recursive function
 def sum_of_list(l1):
