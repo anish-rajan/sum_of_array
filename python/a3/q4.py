@@ -1,3 +1,4 @@
+import random
 def factorial(m):
     if m==0:
         return 1
