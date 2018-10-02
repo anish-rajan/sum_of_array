@@ -1,4 +1,5 @@
 def fibonacci(n,prev=1,count=0,next=0):
+  #in fibonacci difference of terms are in ap
   if count==n:
       return next
   else:
