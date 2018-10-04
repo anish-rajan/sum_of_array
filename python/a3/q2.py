@@ -1,18 +1,18 @@
 l1=[1,2,3,4,5]
-#using for loop
+#Sum using for loop
 sum=0
-for j in l1:
-    sum=sum+j
+for i in l1:
+    sum=sum+i
 
 
-#using while loop
-j=0
+#Sum using while loop
+i=0
 sum1=0
-while(j<len(l1)):
-    sum1+=l1[j]
-    j+=1
+while(i<len(l1)):
+    sum1+=l1[i]
+    i+=1
 
-#using recursive function
+#using reursion 
 def sum_of_list(l1):
     i=0
     if i<(len(l1)-1):
