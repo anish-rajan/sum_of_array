@@ -1,12 +1,12 @@
-def fibonacci(n,prev=1,count=0,next=0):
+def fibonacci(n):
   #in fibonacci difference of terms are in ap
-  if count==n:
-      return next
+  if n==1:
+    return 1
+  if n ==2:
+    return 2
   else:
-      next=prev+next
-      prev=next-prev
-      print next
-      count=count+1
-      return fibonacci(n,prev,count,next)
+    return fibonacci(n-1)+fibonacci(n-2)
+    
+     
 n=input("enter a number")
 fibonacci(n)
