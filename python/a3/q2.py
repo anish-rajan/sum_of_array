@@ -1,8 +1,8 @@
-l1=[1,2,3,4,5]
+l1=[1,2,3,4,5,6]
 #using for loop
 sum=0
 for j in l1:
-    sum=sum+j
+    sum+=j
 
 
 #using while loop
