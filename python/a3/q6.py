@@ -1,4 +1,4 @@
-def fibonacci(n,prev=1,count=0,next=0):
+def fib(n,prev=1,count=0,next=0):
   #in fibonacci difference of terms are in ap
   if count==n:
       return next
@@ -7,6 +7,6 @@ def fibonacci(n,prev=1,count=0,next=0):
       prev=next-prev
       print next
       count=count+1
-      return fibonacci(n,prev,count,next)
+      return fib(n,prev,count,next)
 n=input("enter a number")
-fibonacci(n)
+fib(n)
